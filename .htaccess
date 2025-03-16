@@ -1,0 +1,3 @@
+AddType text/html .html
+AddType image/jpeg .jpg
+AddType audio/mpeg .mp3
