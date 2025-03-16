@@ -6,7 +6,8 @@
     <title>Ерсұлтан & Айдана - Үйлену тойына шақыру</title>
     <meta name="description" content="Ерсұлтан мен Айдананың үйлену тойына ресми шақыру">
     <link rel="icon" type="image/png" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- Новый набор шрифтов -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
         * {
@@ -16,20 +17,19 @@
         }
 
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Noto Serif', serif;
             color: #fff;
             line-height: 1.6;
-            background: url('images/background.jpg') center/cover no-repeat fixed;
+            background: linear-gradient(135deg, #2a1d0f, #4b2e18);
             min-height: 100vh;
             position: relative;
-            background-color: #2a1d0f;
         }
 
         .overlay {
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.5);
             min-height: 100vh;
             padding: 20px;
-            backdrop-filter: blur(3px);
+            backdrop-filter: blur(4px);
         }
 
         .container {
@@ -41,46 +41,50 @@
         }
 
         h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-family: 'Noto Serif', serif;
+            font-size: 2.4rem;
+            margin-bottom: 25px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.6);
+            color: #ffd700;
         }
 
         .greeting-text {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             margin: 20px 0;
             letter-spacing: 1px;
         }
 
         .couple-names {
-            font-family: 'Dancing Script', cursive;
-            font-size: 3.5rem;
+            font-family: 'Marck Script', cursive;
+            font-size: 4rem;
             margin: 25px 0;
-            color: #ffd700;
+            background: linear-gradient(90deg, #ffd700, #ff8c00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             line-height: 1.2;
         }
 
         .main-invitation {
-            font-size: 1.8rem;
+            font-size: 1.9rem;
             margin: 30px 0;
             line-height: 1.8;
-            font-weight: 500;
+            font-weight: 600;
         }
 
         .details {
-            background: rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.1);
             padding: 30px;
-            border-radius: 15px;
+            border-radius: 20px;
             margin: 30px 0;
+            border: 1px solid rgba(255,255,255,0.3);
             backdrop-filter: blur(5px);
-            border: 1px solid rgba(255,255,255,0.2);
         }
 
         .date {
-            font-size: 2rem;
+            font-size: 2.1rem;
             margin: 20px 0;
             font-weight: 700;
+            color: #ffa500;
         }
 
         .address {
@@ -90,24 +94,26 @@
         }
 
         .hosts {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             margin: 25px 0;
             font-weight: bold;
-            color: #c39d63;
+            color: #ffd700;
         }
 
         .final-message {
-            font-family: 'Dancing Script', cursive;
-            font-size: 2.2rem;
+            font-family: 'Marck Script', cursive;
+            font-size: 2.4rem;
             margin: 40px 0 30px;
-            color: #ffd700;
+            background: linear-gradient(90deg, #ffd700, #ff8c00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             line-height: 1.3;
         }
 
         .button {
             display: inline-block;
             padding: 15px 40px;
-            background: #c39d63;
+            background: #ff8c00;
             color: white;
             text-decoration: none;
             border-radius: 30px;
@@ -115,12 +121,13 @@
             transition: all 0.3s;
             font-size: 1.2rem;
             border: 2px solid #ffffff;
-            font-weight: 500;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
         }
 
         .button:hover {
-            background: #b08c52;
-            transform: translateY(-2px);
+            background: #e67300;
+            transform: translateY(-3px) scale(1.05);
         }
 
         @media (max-width: 768px) {
@@ -129,7 +136,7 @@
             }
             
             .couple-names {
-                font-size: 2.5rem;
+                font-size: 2.8rem;
             }
             
             .main-invitation {
@@ -167,7 +174,7 @@
 <body>
     <div class="overlay">
         <div class="container">
-            <h1>Құрметті ағайын-тұыс, Құда-жекжат, Дос-жарандар!</h1>
+            <h1>Құрметті ағайын-туыс, Құда-жекжат, Дос-жарандар!</h1>
             <div class="greeting-text">
                 Сіздерді баламыз
             </div>
@@ -175,7 +182,7 @@
                 Ерсұлтан және Айдананың
             </div>
             <div class="main-invitation">
-                ҮЙЛЕНУ ТОЙЫНА АРНАЛҒАН САЛТАНАТТЫ КЕШІНІҢ ҚАДІРЛІ ҚОНАҒЫ БОЛҰҒА ШАҚЫРАМЫЗ
+                ҮЙЛЕНУ ТОЙЫНА АРНАЛҒАН САЛТАНАТТЫ КЕШІНІҢ ҚАДІРЛІ ҚОНАҒЫ БОЛУҒА ШАҚЫРАМЫЗ
             </div>
             <div class="details">
                 <div class="date">
@@ -207,25 +214,6 @@
             const audio = document.getElementById('weddingMusic');
             audio.play().catch(() => {});
         }, {once: true});
-
-        function adjustLayout() {
-            const screenWidth = window.innerWidth;
-            const elements = {
-                coupleNames: document.querySelector('.couple-names'),
-                finalMessage: document.querySelector('.final-message')
-            };
-
-            if (screenWidth <= 768) {
-                elements.coupleNames.style.fontSize = screenWidth <= 480 ? '2rem' : '2.5rem';
-                elements.finalMessage.style.fontSize = screenWidth <= 480 ? '1.6rem' : '1.8rem';
-            } else {
-                elements.coupleNames.style.fontSize = '3.5rem';
-                elements.finalMessage.style.fontSize = '2.2rem';
-            }
-        }
-        
-        window.onload = adjustLayout;
-        window.onresize = adjustLayout;
     </script>
 </body>
 </html>
